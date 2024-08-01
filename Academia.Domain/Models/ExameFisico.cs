@@ -8,6 +8,7 @@ namespace Academia.Domain.Models
 {
     public sealed class ExameFisico
     {
+        public int Id { get; set; }
         public double Imc { get; set; }
         public DateTime DataExame { get; set; }
         public int AlunoId { get; set; }

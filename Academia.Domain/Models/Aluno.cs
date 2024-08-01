@@ -18,6 +18,8 @@ namespace Academia.Domain.Models
         public Plano Plano { get; set; }
         public double Altura { get; set; }
         public double Peso { get; set; }
+        public ICollection<ExameFisico> ExamesFisicos { get; set; }
+        public ICollection<Treino> Treinos { get; set; }
 
     }
 }

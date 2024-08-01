@@ -1,18 +1,18 @@
 ﻿using Academia.Domain.Models;
+using Academia.Domain.Models.Enuns;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Academia.infrastructure.ModelsConfiguration
 {
-    public class AlunoConfiguration : IEntityTypeConfiguration<Aluno>
+    public class ProfessorConfiguration : IEntityTypeConfiguration<Professor>
     {
-        public void Configure(EntityTypeBuilder<Aluno> builder)
+        public void Configure(EntityTypeBuilder<Professor> builder)
         {
             builder.HasKey(x => x.Id);
 
@@ -25,19 +25,14 @@ namespace Academia.infrastructure.ModelsConfiguration
             builder.Property(x => x.Endereco).
                 HasMaxLength(150).IsRequired();
 
-            builder.Property(x => x.Peso).IsRequired();
-
             builder.Property(x => x.DataNascimento).IsRequired();
-
-            builder.Property(x => x.Altura).IsRequired();
 
             builder.Property(x => x.DataCadastro).IsRequired();
 
             builder.Property(x => x.Telefone).IsRequired();
 
-            builder.HasMany(a => a.Treinos)
-                .WithOne(t => t.Aluno)
-                .HasForeignKey(t => t.AlunoId);
+            builder.Property(x => x.Status).HasConversion<string>().HasDefaultValue(Status.Ativo);
+
         }
     }
 }
