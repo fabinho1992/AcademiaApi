@@ -17,6 +17,12 @@ namespace Academia.infrastructure.ModelsConfiguration
 
             builder.Property(x => x.Nome)
                 .HasMaxLength(100).IsRequired();
+
+            builder.Property(x => x.Serie).IsRequired();
+
+            builder.Property(x => x.Repeticao).IsRequired();
+
+            builder.Property(x => x.Musculo).HasMaxLength(100).IsRequired();
         }
     }
 }
