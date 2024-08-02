@@ -33,6 +33,11 @@ namespace Academia.infrastructure.ModelsConfiguration
 
             builder.Property(x => x.Status).HasConversion<string>().HasDefaultValue(Status.Ativo);
 
+            builder.HasMany(p => p.ExamesFisicos)
+                .WithOne(t => t.Professor)
+                .HasForeignKey(t => t.ProfessorId);
+                
+
         }
     }
 }

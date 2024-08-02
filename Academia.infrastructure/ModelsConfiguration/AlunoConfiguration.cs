@@ -35,7 +35,13 @@ namespace Academia.infrastructure.ModelsConfiguration
 
             builder.Property(x => x.Telefone).IsRequired();
 
+            builder.Property(x => x.Plano).HasConversion<string>().IsRequired();
+
             builder.HasMany(a => a.Treinos)
+                .WithOne(t => t.Aluno)
+                .HasForeignKey(t => t.AlunoId);
+
+            builder.HasMany(a => a.ExamesFisicos)
                 .WithOne(t => t.Aluno)
                 .HasForeignKey(t => t.AlunoId);
         }

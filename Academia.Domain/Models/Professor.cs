@@ -1,9 +1,5 @@
 ﻿using Academia.Domain.Models.Enuns;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 namespace Academia.Domain.Models
 {
@@ -17,5 +13,6 @@ namespace Academia.Domain.Models
 
         public string? Experiencia { get; set; }
         public Status Status { get; set; }
+        public ICollection<ExameFisico> ExamesFisicos { get; set; } = new Collection<ExameFisico>();
     }
 }

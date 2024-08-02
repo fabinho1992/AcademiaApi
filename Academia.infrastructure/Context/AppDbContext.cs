@@ -1,4 +1,5 @@
 ﻿using Academia.Domain.Models;
+using Academia.infrastructure.ModelsConfiguration;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -20,5 +21,16 @@ namespace Academia.infrastructure.Context
         public DbSet<Treino> Treinos { get; set; }
         public DbSet<Exercicio> Exercicios { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new AlunoConfiguration ());
+            modelBuilder.ApplyConfiguration(new ProfessorConfiguration ());
+            modelBuilder.ApplyConfiguration(new ExameFisicoConfiguration ());
+            modelBuilder.ApplyConfiguration(new TreinoConfiguration ());
+            modelBuilder.ApplyConfiguration(new ExercicioConfiguration ());
+
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

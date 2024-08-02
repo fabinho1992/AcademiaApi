@@ -1,0 +1,12 @@
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\bin\Debug\net8.0\Academia.Application.deps.json
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\bin\Debug\net8.0\Academia.Application.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\bin\Debug\net8.0\Academia.Application.pdb
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\obj\Debug\net8.0\Academia.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\obj\Debug\net8.0\Academia.Application.AssemblyInfoInputs.cache
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\obj\Debug\net8.0\Academia.Application.AssemblyInfo.cs
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\obj\Debug\net8.0\Academia.Application.csproj.CoreCompileInputs.cache
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\obj\Debug\net8.0\Academia.Application.sourcelink.json
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\obj\Debug\net8.0\Academia.Application.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\obj\Debug\net8.0\refint\Academia.Application.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\obj\Debug\net8.0\Academia.Application.pdb
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Application\obj\Debug\net8.0\ref\Academia.Application.dll
