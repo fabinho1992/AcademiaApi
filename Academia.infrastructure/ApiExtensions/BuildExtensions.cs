@@ -1,18 +1,11 @@
 ﻿using Academia.infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 
 namespace Academia.WebApi.ApiExtensions
 {
-    public static class BuildExtensions
+    public class BuildExtensions
     {
-        public static void AddDbContext()
-        {
-            var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-            var ConnectionString = optionsBuilder.Configuration.GetConnectionString("DefaultConnection");
-
-            builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(ConnectionString));
-        }
     }
 }

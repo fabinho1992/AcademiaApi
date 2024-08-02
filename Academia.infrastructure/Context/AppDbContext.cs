@@ -11,8 +11,10 @@ namespace Academia.infrastructure.Context
 {
     public class AppDbContext : DbContext
     {
+
         public AppDbContext(DbContextOptions options) : base(options)
         {
+            
         }
 
         public DbSet<Aluno> Alunos { get; set; }
