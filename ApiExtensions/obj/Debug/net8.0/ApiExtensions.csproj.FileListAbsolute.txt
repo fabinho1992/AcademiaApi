@@ -18,3 +18,23 @@ C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\refint\ApiExtensions.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\ApiExtensions.pdb
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\ref\ApiExtensions.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\bin\Debug\net8.0\ApiExtensions.deps.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\bin\Debug\net8.0\ApiExtensions.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\bin\Debug\net8.0\ApiExtensions.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\bin\Debug\net8.0\Academia.Application.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\bin\Debug\net8.0\Academia.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\bin\Debug\net8.0\Academia.infrastructure.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\bin\Debug\net8.0\Academia.Application.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\bin\Debug\net8.0\Academia.Domain.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\bin\Debug\net8.0\Academia.infrastructure.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ApiExtensions.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ApiExtensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ApiExtensions.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ApiExtensions.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ApiExtensions.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ApiExtensions.sourcelink.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ApiExten.94EF1B0E.Up2Date
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ApiExtensions.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\refint\ApiExtensions.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ApiExtensions.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\ApiExtensions\obj\Debug\net8.0\ref\ApiExtensions.dll
