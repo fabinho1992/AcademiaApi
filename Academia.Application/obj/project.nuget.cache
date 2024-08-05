@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lLbeCq+4RMU=",
+  "dgSpecHash": "AriIUnVLfkimqgOl0+ryLK4fGgsKl/FXqGM9RdWgR5tjDD77sq5wZWqO7Sr7bsn4vgaWlrHbY27McTuAKnWFMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj",
+  "projectFilePath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -37,6 +37,9 @@ namespace Academia.infrastructure.ModelsConfiguration
 
             builder.Property(x => x.Plano).HasConversion<string>().IsRequired();
 
+            builder.Property(x => x.Email)
+                .HasMaxLength(100).IsRequired();
+
             builder.HasMany(a => a.Treinos)
                 .WithOne(t => t.Aluno)
                 .HasForeignKey(t => t.AlunoId);

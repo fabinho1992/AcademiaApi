@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Academia.Application/1.0.0": {
+        "dependencies": {
+          "Academia.Domain": "1.0.0"
+        },
         "runtime": {
           "Academia.Application.dll": {}
+        }
+      },
+      "Academia.Domain/1.0.0": {
+        "runtime": {
+          "Academia.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Academia.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Academia.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

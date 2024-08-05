@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Academia.WebApi/1.0.0": {
         "dependencies": {
-          "Academia.infrastructure": "1.0.0",
+          "ApiExtensions": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
           "Swashbuckle.AspNetCore": "6.4.0"
@@ -882,6 +882,12 @@
       "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31311"
+          }
         }
       },
       "System.Threading.Channels/6.0.0": {},
@@ -905,6 +911,14 @@
           }
         }
       },
+      "Academia.Application/1.0.0": {
+        "dependencies": {
+          "Academia.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Academia.Application.dll": {}
+        }
+      },
       "Academia.Domain/1.0.0": {
         "runtime": {
           "Academia.Domain.dll": {}
@@ -918,6 +932,18 @@
         },
         "runtime": {
           "Academia.infrastructure.dll": {}
+        }
+      },
+      "ApiExtensions/1.0.0": {
+        "dependencies": {
+          "Academia.Application": "1.0.0",
+          "Academia.Domain": "1.0.0",
+          "Academia.infrastructure": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0"
+        },
+        "runtime": {
+          "ApiExtensions.dll": {}
         }
       }
     }
@@ -1502,12 +1528,22 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
+    "Academia.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Academia.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Academia.infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiExtensions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
