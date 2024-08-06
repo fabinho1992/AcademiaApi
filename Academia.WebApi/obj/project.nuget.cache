@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nK0vN36xRyQ=",
+  "dgSpecHash": "wETgY5I4TLQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Academia.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

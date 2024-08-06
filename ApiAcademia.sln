@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Application", "Aca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.WebApi", "Academia.WebApi\Academia.WebApi.csproj", "{8B0527F2-E4FA-4C38-8F84-017795F205C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiExtensions", "ApiExtensions\ApiExtensions.csproj", "{7A1266C8-5983-44F9-95BB-A67BADC6E3F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiExtensions", "ApiExtensions\ApiExtensions.csproj", "{7A1266C8-5983-44F9-95BB-A67BADC6E3F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademiaTesteUnit", "AcademiaTesteUnit\AcademiaTesteUnit.csproj", "{8079BC6A-62B4-47D3-837B-90230219C52F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7A1266C8-5983-44F9-95BB-A67BADC6E3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A1266C8-5983-44F9-95BB-A67BADC6E3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A1266C8-5983-44F9-95BB-A67BADC6E3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8079BC6A-62B4-47D3-837B-90230219C52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8079BC6A-62B4-47D3-837B-90230219C52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8079BC6A-62B4-47D3-837B-90230219C52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8079BC6A-62B4-47D3-837B-90230219C52F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

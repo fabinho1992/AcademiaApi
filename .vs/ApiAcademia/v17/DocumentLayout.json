@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8079BC6A-62B4-47D3-837B-90230219C52F}|AcademiaTesteUnit\\AcademiaTesteUnit.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academiatesteunit\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8079BC6A-62B4-47D3-837B-90230219C52F}|AcademiaTesteUnit\\AcademiaTesteUnit.csproj|solutionrelative:academiatesteunit\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0527F2-E4FA-4C38-8F84-017795F205C8}|Academia.WebApi\\Academia.WebApi.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.webapi\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0527F2-E4FA-4C38-8F84-017795F205C8}|Academia.WebApi\\Academia.WebApi.csproj|solutionrelative:academia.webapi\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04844EE-66D1-4F78-8C1F-DA93627A6220}|Academia.Application\\Academia.Application.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.application\\dtos\\alunodto\\putalunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04844EE-66D1-4F78-8C1F-DA93627A6220}|Academia.Application\\Academia.Application.csproj|solutionrelative:academia.application\\dtos\\alunodto\\putalunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04844EE-66D1-4F78-8C1F-DA93627A6220}|Academia.Application\\Academia.Application.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.application\\dtos\\alunodto\\requestalunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04844EE-66D1-4F78-8C1F-DA93627A6220}|Academia.Application\\Academia.Application.csproj|solutionrelative:academia.application\\dtos\\alunodto\\requestalunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04844EE-66D1-4F78-8C1F-DA93627A6220}|Academia.Application\\Academia.Application.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.application\\profiles\\alunoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04844EE-66D1-4F78-8C1F-DA93627A6220}|Academia.Application\\Academia.Application.csproj|solutionrelative:academia.application\\profiles\\alunoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04844EE-66D1-4F78-8C1F-DA93627A6220}|Academia.Application\\Academia.Application.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.application\\dtos\\alunodto\\responsealunodtodefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04844EE-66D1-4F78-8C1F-DA93627A6220}|Academia.Application\\Academia.Application.csproj|solutionrelative:academia.application\\dtos\\alunodto\\responsealunodtodefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB49EA-FBAB-447D-8DAA-9D4D62EBEADB}|Academia.infrastructure\\Academia.infrastructure.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.infrastructure\\modelsconfiguration\\alunoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EB49EA-FBAB-447D-8DAA-9D4D62EBEADB}|Academia.infrastructure\\Academia.infrastructure.csproj|solutionrelative:academia.infrastructure\\modelsconfiguration\\alunoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A1266C8-5983-44F9-95BB-A67BADC6E3F5}|ApiExtensions\\ApiExtensions.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\apiextensions\\dependencyapiextensions\\injectionapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A1266C8-5983-44F9-95BB-A67BADC6E3F5}|ApiExtensions\\ApiExtensions.csproj|solutionrelative:apiextensions\\dependencyapiextensions\\injectionapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B0527F2-E4FA-4C38-8F84-017795F205C8}|Academia.WebApi\\Academia.WebApi.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B0527F2-E4FA-4C38-8F84-017795F205C8}|Academia.WebApi\\Academia.WebApi.csproj|solutionrelative:academia.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A1266C8-5983-44F9-95BB-A67BADC6E3F5}|ApiExtensions\\ApiExtensions.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\apiextensions\\apiextensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A1266C8-5983-44F9-95BB-A67BADC6E3F5}|ApiExtensions\\ApiExtensions.csproj|solutionrelative:apiextensions\\apiextensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58768189-4197-4D02-88D4-FB00EDBC66A9}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.domain\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58768189-4197-4D02-88D4-FB00EDBC66A9}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B0527F2-E4FA-4C38-8F84-017795F205C8}|Academia.WebApi\\Academia.WebApi.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8B0527F2-E4FA-4C38-8F84-017795F205C8}|Academia.WebApi\\Academia.WebApi.csproj|solutionrelative:academia.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9EB49EA-FBAB-447D-8DAA-9D4D62EBEADB}|Academia.infrastructure\\Academia.infrastructure.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.infrastructure\\modelsconfiguration\\alunoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9EB49EA-FBAB-447D-8DAA-9D4D62EBEADB}|Academia.infrastructure\\Academia.infrastructure.csproj|solutionrelative:academia.infrastructure\\modelsconfiguration\\alunoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B0527F2-E4FA-4C38-8F84-017795F205C8}|Academia.WebApi\\Academia.WebApi.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0527F2-E4FA-4C38-8F84-017795F205C8}|Academia.WebApi\\Academia.WebApi.csproj|solutionrelative:academia.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9EB49EA-FBAB-447D-8DAA-9D4D62EBEADB}|Academia.infrastructure\\Academia.infrastructure.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.infrastructure\\modelsconfiguration\\professorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{58768189-4197-4D02-88D4-FB00EDBC66A9}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.domain\\models\\treinoexercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58768189-4197-4D02-88D4-FB00EDBC66A9}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\models\\treinoexercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58768189-4197-4D02-88D4-FB00EDBC66A9}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.domain\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58768189-4197-4D02-88D4-FB00EDBC66A9}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58768189-4197-4D02-88D4-FB00EDBC66A9}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\apiacademia\\academiaapi\\academia.domain\\models\\exercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,45 +103,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\AcademiaTesteUnit\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "AcademiaTesteUnit\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\AcademiaTesteUnit\\UnitTest1.cs",
+              "RelativeToolTip": "AcademiaTesteUnit\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T16:48:46.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PutAlunoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Application\\Dtos\\AlunoDto\\PutAlunoDto.cs",
+              "RelativeDocumentMoniker": "Academia.Application\\Dtos\\AlunoDto\\PutAlunoDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Application\\Dtos\\AlunoDto\\PutAlunoDto.cs",
+              "RelativeToolTip": "Academia.Application\\Dtos\\AlunoDto\\PutAlunoDto.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T16:30:49.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestAlunoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Application\\Dtos\\AlunoDto\\RequestAlunoDto.cs",
+              "RelativeDocumentMoniker": "Academia.Application\\Dtos\\AlunoDto\\RequestAlunoDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Application\\Dtos\\AlunoDto\\RequestAlunoDto.cs",
+              "RelativeToolTip": "Academia.Application\\Dtos\\AlunoDto\\RequestAlunoDto.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T16:15:09.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlunoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Controllers\\AlunoController.cs",
+              "RelativeDocumentMoniker": "Academia.WebApi\\Controllers\\AlunoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Controllers\\AlunoController.cs",
+              "RelativeToolTip": "Academia.WebApi\\Controllers\\AlunoController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAADkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T16:03:33.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiExtensions",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\ApiExtensions\\ApiExtensions.csproj",
+              "RelativeDocumentMoniker": "ApiExtensions\\ApiExtensions.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\ApiExtensions\\ApiExtensions.csproj",
+              "RelativeToolTip": "ApiExtensions\\ApiExtensions.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-06T15:57:13.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "InjectionApi.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\ApiExtensions\\DependencyApiExtensions\\InjectionApi.cs",
               "RelativeDocumentMoniker": "ApiExtensions\\DependencyApiExtensions\\InjectionApi.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\ApiExtensions\\DependencyApiExtensions\\InjectionApi.cs",
               "RelativeToolTip": "ApiExtensions\\DependencyApiExtensions\\InjectionApi.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAACNAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T19:02:42.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "ResponseAlunoDtoDefault.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Application\\Dtos\\AlunoDto\\ResponseAlunoDtoDefault.cs",
+              "RelativeDocumentMoniker": "Academia.Application\\Dtos\\AlunoDto\\ResponseAlunoDtoDefault.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Application\\Dtos\\AlunoDto\\ResponseAlunoDtoDefault.cs",
+              "RelativeToolTip": "Academia.Application\\Dtos\\AlunoDto\\ResponseAlunoDtoDefault.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T15:46:05.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlunoProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Application\\Profiles\\AlunoProfile.cs",
+              "RelativeDocumentMoniker": "Academia.Application\\Profiles\\AlunoProfile.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Application\\Profiles\\AlunoProfile.cs",
+              "RelativeToolTip": "Academia.Application\\Profiles\\AlunoProfile.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T15:47:18.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlunoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\AlunoConfiguration.cs",
+              "RelativeDocumentMoniker": "Academia.infrastructure\\ModelsConfiguration\\AlunoConfiguration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\AlunoConfiguration.cs",
+              "RelativeToolTip": "Academia.infrastructure\\ModelsConfiguration\\AlunoConfiguration.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T16:36:40.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "Academia.WebApi\\appsettings.json",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\appsettings.json",
               "RelativeToolTip": "Academia.WebApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAsAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-05T18:57:20.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "Academia.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Program.cs",
-              "RelativeToolTip": "Academia.WebApi\\Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAkAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T16:13:56.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Academia.infrastructure\\Context\\AppDbContext.cs",
@@ -126,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "BuildExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ApiExtensions\\BuildExtensions.cs",
               "RelativeDocumentMoniker": "Academia.infrastructure\\ApiExtensions\\BuildExtensions.cs",
@@ -137,33 +256,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AlunoConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\AlunoConfiguration.cs",
-              "RelativeDocumentMoniker": "Academia.infrastructure\\ModelsConfiguration\\AlunoConfiguration.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\AlunoConfiguration.cs",
-              "RelativeToolTip": "Academia.infrastructure\\ModelsConfiguration\\AlunoConfiguration.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAIBJwCUAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T16:36:40.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ProfessorConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\ProfessorConfiguration.cs",
               "RelativeDocumentMoniker": "Academia.infrastructure\\ModelsConfiguration\\ProfessorConfiguration.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\ProfessorConfiguration.cs",
               "RelativeToolTip": "Academia.infrastructure\\ModelsConfiguration\\ProfessorConfiguration.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAIBJwCEAAABiAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAABgwCEAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T16:36:40.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "Academia.Domain\\Models\\Aluno.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Models\\Aluno.cs",
+              "RelativeToolTip": "Academia.Domain\\Models\\Aluno.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T16:36:40.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Academia.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Program.cs",
+              "RelativeToolTip": "Academia.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:13:56.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ExameFisicoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\ExameFisicoConfiguration.cs",
               "RelativeDocumentMoniker": "Academia.infrastructure\\ModelsConfiguration\\ExameFisicoConfiguration.cs",
@@ -176,20 +308,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "ExercicioConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\ExercicioConfiguration.cs",
               "RelativeDocumentMoniker": "Academia.infrastructure\\ModelsConfiguration\\ExercicioConfiguration.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\ExercicioConfiguration.cs",
               "RelativeToolTip": "Academia.infrastructure\\ModelsConfiguration\\ExercicioConfiguration.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBgAAABMAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwBgAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T16:36:40.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "TreinoExercicio.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Models\\TreinoExercicio.cs",
               "RelativeDocumentMoniker": "Academia.Domain\\Models\\TreinoExercicio.cs",
@@ -202,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Exercicio.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Models\\Exercicio.cs",
               "RelativeDocumentMoniker": "Academia.Domain\\Models\\Exercicio.cs",
@@ -215,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Treino.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Models\\Treino.cs",
               "RelativeDocumentMoniker": "Academia.Domain\\Models\\Treino.cs",
@@ -228,20 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Models\\Aluno.cs",
-              "RelativeDocumentMoniker": "Academia.Domain\\Models\\Aluno.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Models\\Aluno.cs",
-              "RelativeToolTip": "Academia.Domain\\Models\\Aluno.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA6wBEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T16:36:40.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "DiagramaDeClasse.jpg",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\DiagramaDeClasse.jpg",
               "RelativeDocumentMoniker": "Academia.WebApi\\DiagramaDeClasse.jpg",
@@ -252,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "TreinoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\ModelsConfiguration\\TreinoConfiguration.cs",
               "RelativeDocumentMoniker": "Academia.infrastructure\\ModelsConfiguration\\TreinoConfiguration.cs",

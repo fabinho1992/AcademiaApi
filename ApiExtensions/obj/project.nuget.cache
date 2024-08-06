@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mUaBseFgYHo=",
+  "dgSpecHash": "s2CegLPMfvs=",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\ApiExtensions\\ApiExtensions.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.0\\microsoft.aspnetcore.jsonpatch.8.0.0.nupkg.sha512",

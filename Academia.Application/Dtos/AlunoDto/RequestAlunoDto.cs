@@ -26,12 +26,12 @@ namespace Academia.Application.Dtos.AlunoDto
         public DateTime DataNascimento { get; set; }
         [DataType(DataType.Date)]
         [Required]
-        public DateTime DataCadastro { get; set; }
+        public DateTime DataCadastro { get; set; } = DateTime.Now;
         [Required]
         [MaxLength(150)]
         public string Endereco { get; set; }
         [Required]
-        [Range(9, 11, ErrorMessage = "Digite um telefone válido, com ou sem o prefixo.")]
+        //[Range(9, 11, ErrorMessage = "Digite um telefone válido, com ou sem o prefixo.")]
         public int Telefone { get; set; }
         [Required]
         public Plano Plano { get; set; }

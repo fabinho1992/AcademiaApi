@@ -1,4 +1,5 @@
-﻿using Academia.Domain.Interfaces;
+﻿using Academia.Application.Profiles;
+using Academia.Domain.Interfaces;
 using Academia.Domain.Interfaces.Generic;
 using Academia.infrastructure.Context;
 using Academia.infrastructure.Repositories;
@@ -39,6 +40,9 @@ namespace ApiExtensions.DependencyApiExtensions
             services.AddScoped(typeof(IGeneric<>), typeof(RepositoryBase<>));
             services.AddScoped<IAlunoService, AlunoRepository>();
             services.AddScoped<IUnitofWork, UnitOfWork>();
+
+            //AutoMapper
+            services.AddAutoMapper(typeof(AlunoProfile));
 
             return services;
         }

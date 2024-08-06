@@ -294,3 +294,4 @@ C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academi
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.WebApi\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.WebApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Newtonsoft.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.WebApi\bin\Debug\net8.0\AutoMapper.dll
