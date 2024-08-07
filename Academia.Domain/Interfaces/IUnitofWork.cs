@@ -9,6 +9,7 @@ namespace Academia.Domain.Interfaces
     public interface IUnitofWork
     {
         IAlunoService AlunoService { get; }
+        IProfessorService ProfessorService { get; }
         Task Commit();
     }
 }

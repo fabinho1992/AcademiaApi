@@ -33,6 +33,9 @@ namespace Academia.infrastructure.ModelsConfiguration
 
             builder.Property(x => x.Status).HasConversion<string>().HasDefaultValue(Status.Ativo);
 
+            builder.Property(x => x.Experiencia)
+                .HasMaxLength(200).IsRequired();
+
             builder.Property(x => x.Email)
                 .HasMaxLength(100).IsRequired();
 

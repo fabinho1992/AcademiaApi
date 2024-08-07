@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Academia.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class AlunoController : ControllerBase
     {
@@ -25,11 +25,15 @@ namespace Academia.WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(RequestAlunoDto alunoDto)
         {
+            if (alunoDto is null)
+            {
+                return BadRequest("Insira os dados corretos.");
+            }
             var alunoNovo = _mapper.Map<Aluno>(alunoDto);
             await _context.AlunoService.Create(alunoNovo);
             await _context.Commit();
 
-            return Ok(alunoNovo);
+            return new CreatedAtRouteResult("GetAluno", new { id = alunoNovo.Id }, alunoNovo);
         }
 
         [HttpGet]
@@ -43,6 +47,23 @@ namespace Academia.WebApi.Controllers
 
             var alunosDto = _mapper.Map<IEnumerable<ResponseAlunoDtoDefault>>(alunos);
             return Ok(alunosDto);
+        }
+
+        [HttpGet("{id}", Name = "GetAluno")]
+        public async Task<IActionResult> GetById(int? id)
+        {
+            var aluno = await _context.AlunoService.Get(a => a.Id == id);
+            if(id is null || id < 0)
+            {
+                return BadRequest("Id inválido!");
+            }
+            if (aluno is null)
+            {
+                return NotFound($"Aluno com o Id = {id} não existe!");
+            }
+
+            var alunoResponse = _mapper.Map<ResponseAlunoDtoDefault>(aluno);
+            return Ok(alunoResponse);
         }
 
         [HttpPut]
@@ -60,6 +81,19 @@ namespace Academia.WebApi.Controllers
             var aluno = _mapper.Map<Aluno>(alunoDto);
             await _context.AlunoService.Update(aluno);
             return Ok(aluno);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var aluno = await _context.AlunoService.Get(x => x.Id == id);
+            if (aluno is null)
+            {
+                return BadRequest("Id de aluno não existe!");
+            }
+            await _context.AlunoService.Delete(aluno);
+            await _context.Commit();
+            return Ok("Dados do aluno deletado!");
         }
     }
 }

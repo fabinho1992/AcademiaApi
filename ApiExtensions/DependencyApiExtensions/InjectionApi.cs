@@ -43,6 +43,7 @@ namespace ApiExtensions.DependencyApiExtensions
 
             //AutoMapper
             services.AddAutoMapper(typeof(AlunoProfile));
+            services.AddAutoMapper(typeof(ProfessorProfile));
 
             return services;
         }

@@ -11,6 +11,7 @@ namespace Academia.infrastructure.Repositories
     public class UnitOfWork : IUnitofWork
     {
         private IAlunoService? _alunoService;
+        private IProfessorService? _professorService;
         
         public AppDbContext _appDbContext;
 
@@ -24,6 +25,14 @@ namespace Academia.infrastructure.Repositories
             get
             {
                 return _alunoService = _alunoService ?? new AlunoRepository(_appDbContext);
+            }
+        }
+
+        public IProfessorService ProfessorService
+        {
+            get
+            {
+                return _professorService = _professorService ?? new ProfessorRepository(_appDbContext);
             }
         }
 
