@@ -1,4 +1,5 @@
-﻿using Academia.Application.Dtos.ProfessorDto;
+﻿using Academia.Application.Dtos.AlunoDto;
+using Academia.Application.Dtos.ProfessorDto;
 using Academia.Domain.Interfaces;
 using Academia.Domain.Models;
 using AutoMapper;
@@ -36,7 +37,61 @@ namespace Academia.WebApi.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            return Ok();
+            var professores = await  _context.ProfessorService.GetAll();
+            if (professores is null )
+            {
+                return BadRequest("Nenhum cadastro encontrado!");
+            }
+            var profDto = _mapper.Map<IEnumerable<ResponseProfessorDefault>>(professores);
+            return Ok(profDto);
+        }
+
+        [HttpGet("{id}", Name = "GetById")]
+        public async Task<IActionResult> GetById(int? id)
+        {
+            
+            if (id is null || id < 0)
+            {
+                return BadRequest("Id inválido!");
+            }
+            var prof = await _context.ProfessorService.Get(a => a.Id == id);
+            if (prof is null)
+            {
+                return NotFound($"Professor com o Id = {id} não existe!");
+            }
+
+            var profResponse = _mapper.Map<ResponseProfessorDefault>(prof);
+            return Ok(profResponse);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(int id, PutProfessorDto profDto)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            if (id != profDto.Id)
+            {
+                return BadRequest("Id incorreto!");
+            }
+            var profAtualizado = _mapper.Map<Professor>(profDto);
+            await _context.ProfessorService.Update(profAtualizado);
+            return Ok(profAtualizado);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var prof = await _context.ProfessorService.Get(x => x.Id == id);
+            if (prof is null)
+            {
+                return BadRequest("Id de aluno não existe!");
+            }
+            await _context.ProfessorService.Delete(prof);
+            await _context.Commit();
+            return Ok("Dados do professor deletado!");
         }
     }
 }

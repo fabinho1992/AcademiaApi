@@ -15,7 +15,7 @@ namespace Academia.infrastructure.ModelsConfiguration
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Imc).HasPrecision(3,1).IsRequired();
+            builder.Property(x => x.Imc).HasColumnType("decimal(18,2)");
 
             builder.Property(x => x.DataExame).IsRequired();
         }

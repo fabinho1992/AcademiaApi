@@ -1602,6 +1602,7 @@
       },
       "Academia.infrastructure/1.0.0": {
         "dependencies": {
+          "Academia.Application": "1.0.0",
           "Academia.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7"

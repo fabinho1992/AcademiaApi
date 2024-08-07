@@ -1,4 +1,6 @@
-﻿namespace Academia.Domain.Models
+﻿using System.Text.Json.Serialization;
+
+namespace Academia.Domain.Models
 {
     public sealed class ExameFisico
     {
@@ -9,5 +11,7 @@
         public Aluno? Aluno { get; set; }
         public int ProfessorId { get; set; }
         public Professor? Professor { get; set; }
+
+        
     }
 }

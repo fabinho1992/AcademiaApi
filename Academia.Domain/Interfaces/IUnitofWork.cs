@@ -10,6 +10,7 @@ namespace Academia.Domain.Interfaces
     {
         IAlunoService AlunoService { get; }
         IProfessorService ProfessorService { get; }
+        IExameFisicoService ExameFisicoService { get; }
         Task Commit();
     }
 }

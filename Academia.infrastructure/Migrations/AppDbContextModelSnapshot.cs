@@ -88,9 +88,8 @@ namespace Academia.infrastructure.Migrations
                     b.Property<DateTime>("DataExame")
                         .HasColumnType("datetime2");
 
-                    b.Property<double>("Imc")
-                        .HasPrecision(3, 1)
-                        .HasColumnType("float(3)");
+                    b.Property<decimal>("Imc")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("ProfessorId")
                         .HasColumnType("int");
@@ -163,7 +162,9 @@ namespace Academia.infrastructure.Migrations
                         .HasColumnType("nvarchar(150)");
 
                     b.Property<string>("Experiencia")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Nome")
                         .IsRequired()

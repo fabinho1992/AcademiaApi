@@ -34,3 +34,5 @@ C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academi
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.infrastructure\obj\Debug\net8.0\Academia.infrastructure.pdb
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.infrastructure\obj\Debug\net8.0\Academia.infrastructure.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.infrastructure\obj\Debug\net8.0\ref\Academia.infrastructure.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.infrastructure\bin\Debug\net8.0\Academia.Application.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.infrastructure\bin\Debug\net8.0\Academia.Application.pdb

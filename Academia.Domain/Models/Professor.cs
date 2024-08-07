@@ -1,5 +1,6 @@
 ﻿using Academia.Domain.Models.Enuns;
 using System.Collections.ObjectModel;
+using System.Text.Json.Serialization;
 
 namespace Academia.Domain.Models
 {

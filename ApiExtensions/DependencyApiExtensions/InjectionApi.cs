@@ -39,11 +39,14 @@ namespace ApiExtensions.DependencyApiExtensions
             //Injeções de dependencia
             services.AddScoped(typeof(IGeneric<>), typeof(RepositoryBase<>));
             services.AddScoped<IAlunoService, AlunoRepository>();
+            services.AddScoped<IProfessorService, ProfessorRepository>();
+            services.AddScoped<IExameFisicoService, ExameFisicoRepository>();
             services.AddScoped<IUnitofWork, UnitOfWork>();
 
             //AutoMapper
             services.AddAutoMapper(typeof(AlunoProfile));
             services.AddAutoMapper(typeof(ProfessorProfile));
+            services.AddAutoMapper(typeof(ExameFisicoProfile));
 
             return services;
         }
