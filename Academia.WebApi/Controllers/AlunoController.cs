@@ -4,6 +4,7 @@ using Academia.Domain.Models;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json.Serialization;
 
 namespace Academia.WebApi.Controllers
 {
@@ -64,6 +65,19 @@ namespace Academia.WebApi.Controllers
 
             var alunoResponse = _mapper.Map<ResponseAlunoDtoDefault>(aluno);
             return Ok(alunoResponse);
+        }
+
+        [HttpGet("AlunosPaginados")]
+        public async Task<IActionResult> GetAllPaginado([FromQuery]AlunosPaginado alunosPaginado)
+        {
+            var alunos = await _context.AlunoService.GetPaginado(alunosPaginado);
+            if(alunos is null)
+            {
+                return NotFound("Alunos não encontrados!");
+            }
+            var alunosDto = _mapper.Map<IEnumerable<ResponseAlunoDtoDefault>>(alunos);
+            return Ok(alunosDto);
+
         }
 
         [HttpPut]

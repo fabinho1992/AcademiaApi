@@ -1,15 +1,3 @@
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\bin\Debug\net8.0\Academia.Domain.deps.json
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\bin\Debug\net8.0\Academia.Domain.dll
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\bin\Debug\net8.0\Academia.Domain.pdb
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.AssemblyInfoInputs.cache
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.AssemblyInfo.cs
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.csproj.CoreCompileInputs.cache
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.sourcelink.json
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.dll
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\refint\Academia.Domain.dll
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.pdb
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\ref\Academia.Domain.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.Domain\bin\Debug\net8.0\Academia.Domain.deps.json
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.Domain\bin\Debug\net8.0\Academia.Domain.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.Domain\bin\Debug\net8.0\Academia.Domain.pdb
@@ -22,3 +10,15 @@ C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academi
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.Domain\obj\Debug\net8.0\refint\Academia.Domain.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.Domain\obj\Debug\net8.0\Academia.Domain.pdb
 C:\Users\Usuario\Desktop\Cursos de Programação\ApiAcademia\AcademiaApi\Academia.Domain\obj\Debug\net8.0\ref\Academia.Domain.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\bin\Debug\net8.0\Academia.Domain.deps.json
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\bin\Debug\net8.0\Academia.Domain.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\bin\Debug\net8.0\Academia.Domain.pdb
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.AssemblyInfoInputs.cache
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.AssemblyInfo.cs
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.csproj.CoreCompileInputs.cache
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.sourcelink.json
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\refint\Academia.Domain.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\Academia.Domain.pdb
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.Domain\obj\Debug\net8.0\ref\Academia.Domain.dll

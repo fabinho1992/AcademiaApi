@@ -17,6 +17,7 @@ namespace Academia.Application.Profiles
             CreateMap<ExameFisico, ResponseExameFisicoDto>().ForMember(x => x.Aluno,
                 op => op.MapFrom(x => x.Aluno.Nome)).ForMember(x => x.Professor, op =>
                 op.MapFrom(x => x.Professor.Nome)).ReverseMap();
+            
                 
         }
     }

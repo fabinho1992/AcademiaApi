@@ -1,4 +1,5 @@
-﻿using Academia.Domain.Interfaces.Generic;
+﻿using Academia.Application.Dtos.AlunoDto;
+using Academia.Domain.Interfaces.Generic;
 using Academia.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace Academia.Domain.Interfaces
 {
     public interface IAlunoService : IGeneric<Aluno>
     {
+        Task<IEnumerable<Aluno>> GetPaginado(AlunosPaginado alunosPaginado);
     }
 }

@@ -28,7 +28,7 @@ namespace Academia.infrastructure.Repositories.Base
 
         public async Task Delete(T entity)
         {
-            _context.Set<T>().Remove(entity);
+             _context.Set<T>().Remove(entity);
             //await _context.SaveChangesAsync();
         }
 

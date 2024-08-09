@@ -47,6 +47,7 @@ namespace ApiExtensions.DependencyApiExtensions
             services.AddAutoMapper(typeof(AlunoProfile));
             services.AddAutoMapper(typeof(ProfessorProfile));
             services.AddAutoMapper(typeof(ExameFisicoProfile));
+            services.AddAutoMapper(typeof(ExercicioProfile));
 
             return services;
         }

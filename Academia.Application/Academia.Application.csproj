@@ -14,4 +14,8 @@
     <ProjectReference Include="..\Academia.Domain\Academia.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dtos\TreinoDto\" />
+  </ItemGroup>
+
 </Project>

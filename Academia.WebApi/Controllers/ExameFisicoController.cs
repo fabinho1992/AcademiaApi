@@ -44,5 +44,33 @@ namespace Academia.WebApi.Controllers
             var examesDto = _mapper.Map<IEnumerable<ResponseExameFisicoDto>>(exames);
             return Ok(examesDto);
         }
+
+        [HttpGet("{cpf}", Name = "GetCpf")]
+        public async Task<IActionResult> GetForCpf(string cpf)
+        {
+            var examesCpf = await _context.ExameFisicoService.GetCpf(cpf);
+            if(examesCpf is null)
+            {
+                return BadRequest($"Exames com Cpf {cpf}, não encontrados.");
+            }
+
+            var examesDto = _mapper.Map<IEnumerable<ResponseExameFisicoDto>>(examesCpf);
+            return Ok(examesDto);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var exame = await _context.ExameFisicoService.GetById(id);
+            if (exame is null)
+            {
+                return NotFound($"Exames com Id {id}, não encontrados.");
+            }
+
+            _context.ExameFisicoService.Delete(exame);
+            await _context.Commit();
+            return Ok("Exame apagado!");
+        }
+       
     }
 }

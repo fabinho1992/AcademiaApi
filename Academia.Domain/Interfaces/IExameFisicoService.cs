@@ -11,5 +11,9 @@ namespace Academia.Domain.Interfaces
     {
         Task<ExameFisico> Post(ExameFisico exameFisico);
         Task<IEnumerable<ExameFisico>> GetAll();
+        Task<IEnumerable<ExameFisico>> GetCpf(string cpf);
+        Task<ExameFisico> GetById(int id);
+        void Delete(ExameFisico exameFisico);
+        
     }
 }

@@ -13,6 +13,7 @@ namespace Academia.infrastructure.Repositories
         private IAlunoService? _alunoService;
         private IProfessorService? _professorService;
         private IExameFisicoService? _exameFisicoService;
+        private IExercicioService? _exercicioService;
         
         public AppDbContext _appDbContext;
 
@@ -44,6 +45,15 @@ namespace Academia.infrastructure.Repositories
                 return _exameFisicoService = _exameFisicoService ?? new ExameFisicoRepository(_appDbContext);
             }
         }
+
+        public IExercicioService ExercicioService
+        {
+            get
+            {
+                return _exercicioService = _exercicioService ?? new ExercicioRepository(_appDbContext);
+            }
+        }
+
         public async Task Commit()
         {
             await _appDbContext.SaveChangesAsync();
