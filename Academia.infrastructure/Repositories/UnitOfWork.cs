@@ -1,4 +1,5 @@
 ﻿using Academia.Domain.Interfaces;
+using Academia.Domain.Interfaces.Generic;
 using Academia.infrastructure.Context;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,8 @@ namespace Academia.infrastructure.Repositories
         private IProfessorService? _professorService;
         private IExameFisicoService? _exameFisicoService;
         private IExercicioService? _exercicioService;
+        private ITreinoService? _treinoService;
+        
         
         public AppDbContext _appDbContext;
 
@@ -53,6 +56,15 @@ namespace Academia.infrastructure.Repositories
                 return _exercicioService = _exercicioService ?? new ExercicioRepository(_appDbContext);
             }
         }
+
+        public ITreinoService TreinoService
+        {
+            get
+            {
+                return _treinoService = _treinoService ?? new TreinoRepository(_appDbContext);  
+            }
+        }
+
 
         public async Task Commit()
         {

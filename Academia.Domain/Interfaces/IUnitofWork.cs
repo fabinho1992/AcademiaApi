@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Academia.Domain.Interfaces.Generic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace Academia.Domain.Interfaces
         IProfessorService ProfessorService { get; }
         IExameFisicoService ExameFisicoService { get; }
         IExercicioService ExercicioService { get; }
+        ITreinoService TreinoService { get; }
         Task Commit();
     }
 }

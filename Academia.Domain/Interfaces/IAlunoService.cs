@@ -12,5 +12,6 @@ namespace Academia.Domain.Interfaces
     public interface IAlunoService : IGeneric<Aluno>
     {
         Task<IEnumerable<Aluno>> GetPaginado(AlunosPaginado alunosPaginado);
+        Task<Aluno> GetIdExames(int id);
     }
 }

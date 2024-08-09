@@ -80,6 +80,22 @@ namespace Academia.WebApi.Controllers
 
         }
 
+        [HttpGet("AlunosListaExames")]
+        public async Task<IActionResult> GetAlunosExames(int id)
+        {
+            var aluno = await _context.AlunoService.GetIdExames(id);
+            if (id < 0)
+            {
+                return BadRequest("Id inválido!");
+            }
+            if (aluno is null)
+            {
+                return NotFound($"Aluno com o Id = {id} não existe!");
+            }
+            var alunoDto = _mapper.Map<ResponseAlunoListaExames>(aluno);
+            return Ok(alunoDto);
+        }
+
         [HttpPut]
         public async Task<IActionResult> Update(int id, PutAlunoDto alunoDto)
         {

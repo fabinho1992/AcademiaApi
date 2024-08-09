@@ -18,6 +18,13 @@ namespace Academia.infrastructure.Repositories
         {
         }
 
+        public async Task<Aluno> GetIdExames(int id)
+        {
+            var aluno = await _context.Alunos.Include(e => e.ExamesFisicos)
+                .ThenInclude(p => p.Professor).FirstOrDefaultAsync(a => a.Id == id);
+            return aluno; 
+        }
+
         public async Task<IEnumerable<Aluno>> GetPaginado(AlunosPaginado alunosPaginado)
         {
             var alunos = await _context.Alunos

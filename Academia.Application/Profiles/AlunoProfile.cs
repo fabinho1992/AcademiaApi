@@ -16,6 +16,7 @@ namespace Academia.Application.Profiles
             CreateMap<Aluno, RequestAlunoDto>().ReverseMap();
             CreateMap<Aluno, ResponseAlunoDtoDefault>().ReverseMap();
             CreateMap<Aluno, PutAlunoDto>().ReverseMap();
+            CreateMap<Aluno, ResponseAlunoListaExames>().ForMember(x => x.Exames, op => op.MapFrom(x => x.ExamesFisicos));
         }
     }
 }
