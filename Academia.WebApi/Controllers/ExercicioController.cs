@@ -34,6 +34,18 @@ namespace Academia.WebApi.Controllers
 
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var exercicios = await _context.ExercicioService.GetAll();
+            if (exercicios is null)
+            {
+                return NotFound("Nenhum dado encontrado!");
+            }
+            var exerciciosDto = _mapper.Map<IEnumerable<ResponseExercicioDto>>(exercicios);
+            return Ok(exerciciosDto);
+        }
+
         [HttpGet("{id}", Name = "GetId")]
         public async Task<IActionResult> GetById(int? id)
         {
@@ -50,5 +62,35 @@ namespace Academia.WebApi.Controllers
             var exercicioDto = _mapper.Map<ResponseExercicioDto>(exercicio);
             return Ok(exercicioDto);
         }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(int id, PutExercicioDto exercicioDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            if (id != exercicioDto.Id)
+            {
+                return BadRequest("Id incorreto!");
+            }
+            var exercicio = _mapper.Map<Exercicio>(exercicioDto);
+            await _context.ExercicioService.Update(exercicio);
+            return Ok(exercicio);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var exercicio = await _context.ExercicioService.Get(x => x.Id == id);
+            if (exercicio is null)
+            {
+                return NotFound($"Exercicio com Id {id} não encontrado!");
+            }
+            await _context.ExercicioService.Delete(exercicio);
+            await _context.Commit();
+            return Ok("Exercicio excluído!");
+        }
+
     }
 }

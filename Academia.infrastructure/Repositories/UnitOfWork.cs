@@ -1,5 +1,4 @@
 ﻿using Academia.Domain.Interfaces;
-using Academia.Domain.Interfaces.Generic;
 using Academia.infrastructure.Context;
 using System;
 using System.Collections.Generic;

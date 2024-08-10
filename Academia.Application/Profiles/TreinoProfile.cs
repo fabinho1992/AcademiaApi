@@ -18,6 +18,7 @@ namespace Academia.Application.Profiles
             CreateMap<Treino, ResponseTreinoDto>().ForMember(x =>
                         x.Aluno, op => op.MapFrom(x => x.Aluno.Nome)).ForMember(x =>
                         x.Exercicios, op => op.MapFrom(x => x.Exercicios));
+            CreateMap<Treino, ResponseTreinoListaDto>().ForMember(x => x.Aluno, op => op.MapFrom(x => x.Aluno.Nome)).ReverseMap();
             
         }
     }

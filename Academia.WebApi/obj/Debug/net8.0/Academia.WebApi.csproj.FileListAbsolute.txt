@@ -301,3 +301,11 @@ C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\Academia.WebApi.pdb
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\Academia.WebApi.genruntimeconfig.cache
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\ref\Academia.WebApi.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\Academia.WebApi.xml
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\Academia.WebApi.xml

@@ -4,6 +4,7 @@ using Academia.Domain.Interfaces.Generic;
 using Academia.infrastructure.Context;
 using Academia.infrastructure.Repositories;
 using Academia.infrastructure.Repositories.Base;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -35,6 +36,13 @@ namespace ApiExtensions.DependencyApiExtensions
             var connectionString = configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<AppDbContext>(
                 opt => opt.UseSqlServer(connectionString));
+            services.AddDbContext<AppIdentityDbContext>(
+                opt => opt.UseSqlServer(connectionString));
+
+            //Identity
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDbContext>()
+                .AddDefaultTokenProviders();
 
             //Injeções de dependencia
             services.AddScoped(typeof(IGeneric<>), typeof(RepositoryBase<>));

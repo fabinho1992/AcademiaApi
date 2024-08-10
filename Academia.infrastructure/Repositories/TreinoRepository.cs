@@ -1,4 +1,4 @@
-﻿using Academia.Domain.Interfaces.Generic;
+﻿using Academia.Domain.Interfaces;
 using Academia.Domain.Models;
 using Academia.infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +17,16 @@ namespace Academia.infrastructure.Repositories
         public TreinoRepository(AppDbContext context)
         {
             _context = context;
+        }
+
+        public async Task Delete(Treino treino)
+        {
+            _context.Treinos.Remove(treino);
+        }
+
+        public async Task<IEnumerable<Treino>> GetAll()
+        {
+            return await _context.Treinos.Include(a => a.Aluno).AsNoTracking().ToListAsync();
         }
 
         public async Task<Treino> GetId(int id)
@@ -43,7 +53,8 @@ namespace Academia.infrastructure.Repositories
             }
             treino.Exercicios = especialidadesConsultadas;
 
-
         }
+
+        
     }
 }

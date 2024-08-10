@@ -17,6 +17,7 @@ namespace Academia.Application.Profiles
             CreateMap<Exercicio, ResponseExercicioDto>().ReverseMap();
             CreateMap<ExercicioReferenciaDto, Exercicio>().ReverseMap();
             CreateMap<ExercicioReferenciaDto, ResponseExercicioDto>().ReverseMap();
+            CreateMap<Exercicio, PutExercicioDto>().ReverseMap();
         }
     }
 }

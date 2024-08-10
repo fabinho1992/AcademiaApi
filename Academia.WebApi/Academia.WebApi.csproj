@@ -5,6 +5,10 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>false</InvariantGlobalization>
+	  <!-- GenerateDocumentationFile, abilita o uso de comentarios Xml-->
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <!-- NoWarn desabilita o aviso que obriga aplicar os comentarios XML de todas as controllers-->
+	  <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
