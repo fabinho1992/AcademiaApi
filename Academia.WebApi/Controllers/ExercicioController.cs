@@ -2,6 +2,7 @@
 using Academia.Domain.Interfaces;
 using Academia.Domain.Models;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,7 +34,7 @@ namespace Academia.WebApi.Controllers
             return new CreatedAtRouteResult("GetId", new { id = exercicio.Id }, exercicio);
 
         }
-
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

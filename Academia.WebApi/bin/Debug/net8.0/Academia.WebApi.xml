@@ -4,5 +4,19 @@
         <name>Academia.WebApi</name>
     </assembly>
     <members>
+        <member name="M:Academia.WebApi.Controllers.AuthController.Register(Academia.infrastructure.Identity.Models.RegisterUser)">
+            <summary>
+            Registra o Usuario
+            </summary>
+            <param name="registerUser"></param>
+            <returns>Status Code 200, Usuario criado</returns>
+        </member>
+        <member name="M:Academia.WebApi.Controllers.AuthController.Login(Academia.infrastructure.Identity.Models.Login)">
+            <summary>
+            Verifica credências do usuario
+            </summary>
+            <param name="loginDto">Objeto Login</param>
+            <returns>Status Code 200 e Token de acesso do usuario</returns>
+        </member>
     </members>
 </doc>

@@ -10,7 +10,7 @@ namespace Academia.infrastructure.Identity.Models
     public class Login
     {
         [Required(ErrorMessage = "Cpf obrigatório!!")]
-        public string? Cpf { get; set; }
+        public string? Email { get; set; }
         [Required(ErrorMessage = "Password obrigatório!!")]
         public string? Password { get; set; }
     }

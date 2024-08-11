@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiExtensions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ca5e336a1fd949b7836ba831d049899c3c72f52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4513e8afc42ac0b37eb8254a119b17bcb8c16be0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiExtensions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiExtensions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
