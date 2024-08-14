@@ -2,6 +2,7 @@
 using Academia.Domain.Interfaces;
 using Academia.Domain.Models;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
@@ -23,6 +24,7 @@ namespace Academia.WebApi.Controllers
             _mapper = mapper;
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Post(RequestAlunoDto alunoDto)
         {
@@ -37,6 +39,7 @@ namespace Academia.WebApi.Controllers
             return new CreatedAtRouteResult("GetAluno", new { id = alunoNovo.Id }, alunoNovo);
         }
 
+        [Authorize(Policy = "User")]
         [HttpGet]
         public async Task<IActionResult> Get()
         {

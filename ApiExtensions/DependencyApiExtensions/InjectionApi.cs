@@ -5,6 +5,7 @@ using Academia.infrastructure.Context;
 using Academia.infrastructure.Identity.Models;
 using Academia.infrastructure.Identity.Services.Token;
 using Academia.infrastructure.Identity.Services.User;
+using Academia.infrastructure.Identity.Services.User.Roles;
 using Academia.infrastructure.Repositories;
 using Academia.infrastructure.Repositories.Base;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -74,6 +75,21 @@ namespace ApiExtensions.DependencyApiExtensions
                 };
             });
 
+            //Politicas que serão usadas para acessar os endpoints
+            services.AddAuthorization(opt =>
+            {
+                opt.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
+
+                //opt.AddPolicy("SuperAdmin", policy => policy.RequireClaim("id", "fabio"));
+
+                opt.AddPolicy("User", policy => policy.RequireRole("User"));
+
+                //opt.AddPolicy("ExcuisivePolicyOnly", policy => policy.RequireAssertion(contex => contex.User
+                //                                            .HasClaim(claim => claim.Type == "id" && claim.Value == "fabio"
+                //                                                  || contex.User.IsInRole("SuperAdmin"))));
+            }
+            );
+
             //Injeções de dependencia
             services.AddScoped(typeof(IGeneric<>), typeof(RepositoryBase<>));
             services.AddScoped<IAlunoService, AlunoRepository>();
@@ -83,6 +99,8 @@ namespace ApiExtensions.DependencyApiExtensions
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<CreateUser>();
             services.AddScoped<LoginUser>();
+            services.AddScoped<CreateRoles>();
+            services.AddScoped<AddRoles>();
 
             //AutoMapper
             services.AddAutoMapper(typeof(AlunoProfile));

@@ -1,6 +1,7 @@
 ﻿using Academia.infrastructure.Identity.Models;
 using Academia.infrastructure.Identity.Services.Token;
 using Academia.infrastructure.Identity.Services.User;
+using Academia.infrastructure.Identity.Services.User.Roles;
 using Azure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -16,11 +17,15 @@ namespace Academia.WebApi.Controllers
     {
         private readonly CreateUser _createUser;
         private readonly LoginUser _loginUser;
+        private readonly CreateRoles _createRoles;
+        private readonly AddRoles _addRoles;
 
-        public AuthController(CreateUser createUser, LoginUser loginUser)
+        public AuthController(CreateUser createUser, LoginUser loginUser, CreateRoles createRoles, AddRoles addRoles)
         {
             _createUser = createUser;
             _loginUser = loginUser;
+            _createRoles = createRoles;
+            _addRoles = addRoles;
         }
 
         /// <summary>
@@ -73,7 +78,12 @@ namespace Academia.WebApi.Controllers
         public async Task<IActionResult> Login([FromBody] Login loginDto)
         {
             var login = await _loginUser.LoginAsync(loginDto);
-            return Ok(login);
+            if (login.Status.Contains("Bad Request"))
+            {
+                return BadRequest(new ResponseIdentityLogin { Status = login.Status, Message = login.Message });
+            }
+            return StatusCode(StatusCodes.Status200OK,
+                new ResponseIdentityCreate { Message = login.Token, Status = login.Status });
            
             
             #region Direto na controller
@@ -112,5 +122,43 @@ namespace Academia.WebApi.Controllers
             #endregion
             
         }
+
+        [HttpPost("CreateRoles")]
+        public async Task<IActionResult> CreatedRole(string nameRole)
+        {
+            var rolecriada = await _createRoles.CreateRole(nameRole);
+            if (rolecriada.Status.Contains("200"))
+            {
+                return StatusCode(StatusCodes.Status200OK,
+                    new ResponseRoles { Message = rolecriada.Message, Status = rolecriada.Status});
+            }
+            if (rolecriada.Status.Contains("400"))
+            {
+                return StatusCode(StatusCodes.Status400BadRequest,
+                    new ResponseRoles { Message = rolecriada.Message, Status = rolecriada.Status});
+            }
+
+            return StatusCode(StatusCodes.Status409Conflict, new ResponseRoles { Message = rolecriada.Message, Status = rolecriada.Status });
+        }
+
+        [HttpPost("AddRoles")]
+        public async Task<IActionResult> AddRole(string email, string nameRole)
+        {
+            var role = await _addRoles.AdicionarRoles(email, nameRole);
+
+            if(role.Status == "200")
+            {
+                return StatusCode(StatusCodes.Status200OK,
+                   new ResponseRoles { Message = role.Message, Status = role.Status });
+            }
+            if (role.Status == "400")
+            {
+                return StatusCode(StatusCodes.Status400BadRequest,
+                    new ResponseRoles { Message = role.Message, Status = role.Status });
+            }
+
+            return StatusCode(StatusCodes.Status404NotFound, new ResponseRoles { Message = role.Message, Status = role.Status });
+        }
+        }
     }
-}
+
