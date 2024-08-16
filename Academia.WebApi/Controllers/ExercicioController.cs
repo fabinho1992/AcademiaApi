@@ -21,6 +21,7 @@ namespace Academia.WebApi.Controllers
             _mapper = mapper;
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Post(RequestExercicioDto exercicioDto)
         {
@@ -34,7 +35,9 @@ namespace Academia.WebApi.Controllers
             return new CreatedAtRouteResult("GetId", new { id = exercicio.Id }, exercicio);
 
         }
-        [Authorize]
+
+        [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -47,6 +50,8 @@ namespace Academia.WebApi.Controllers
             return Ok(exerciciosDto);
         }
 
+        [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         [HttpGet("{id}", Name = "GetId")]
         public async Task<IActionResult> GetById(int? id)
         {
@@ -64,6 +69,7 @@ namespace Academia.WebApi.Controllers
             return Ok(exercicioDto);
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpPut]
         public async Task<IActionResult> Update(int id, PutExercicioDto exercicioDto)
         {
@@ -80,6 +86,7 @@ namespace Academia.WebApi.Controllers
             return Ok(exercicio);
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

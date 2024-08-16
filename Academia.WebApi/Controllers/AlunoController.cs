@@ -1,4 +1,5 @@
 ﻿using Academia.Application.Dtos.AlunoDto;
+using Academia.Application.Services;
 using Academia.Domain.Interfaces;
 using Academia.Domain.Models;
 using AutoMapper;
@@ -24,6 +25,11 @@ namespace Academia.WebApi.Controllers
             _mapper = mapper;
         }
 
+        /// <summary>
+        /// Endpoint exclusivo para Admin
+        /// </summary>
+        /// <param name="alunoDto"></param>
+        /// <returns>Status Code 201 e um email de confirmação de cadastro</returns>
         [Authorize(Policy = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Post(RequestAlunoDto alunoDto)
@@ -34,12 +40,15 @@ namespace Academia.WebApi.Controllers
             }
             var alunoNovo = _mapper.Map<Aluno>(alunoDto);
             await _context.AlunoService.Create(alunoNovo);
+            EmailService.SendConfirmationEmail(alunoNovo.Email, alunoNovo.Nome);
             await _context.Commit();
+
 
             return new CreatedAtRouteResult("GetAluno", new { id = alunoNovo.Id }, alunoNovo);
         }
 
         [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -53,6 +62,8 @@ namespace Academia.WebApi.Controllers
             return Ok(alunosDto);
         }
 
+        [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         [HttpGet("{id}", Name = "GetAluno")]
         public async Task<IActionResult> GetById(int? id)
         {
@@ -70,6 +81,8 @@ namespace Academia.WebApi.Controllers
             return Ok(alunoResponse);
         }
 
+        [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         [HttpGet("AlunosPaginados")]
         public async Task<IActionResult> GetAllPaginado([FromQuery]AlunosPaginado alunosPaginado)
         {
@@ -83,6 +96,8 @@ namespace Academia.WebApi.Controllers
 
         }
 
+        [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         [HttpGet("AlunosListaExames")]
         public async Task<IActionResult> GetAlunosExames(int id)
         {
@@ -99,6 +114,13 @@ namespace Academia.WebApi.Controllers
             return Ok(alunoDto);
         }
 
+        /// <summary>
+        /// Endpoint exclusivo para Admin
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="alunoDto"></param>
+        /// <returns></returns>
+        [Authorize(Policy = "Admin")]
         [HttpPut]
         public async Task<IActionResult> Update(int id, PutAlunoDto alunoDto)
         {
@@ -116,6 +138,12 @@ namespace Academia.WebApi.Controllers
             return Ok(aluno);
         }
 
+        /// <summary>
+        /// Endpoint exclusivo para Admin
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [Authorize(Policy = "Admin")]
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

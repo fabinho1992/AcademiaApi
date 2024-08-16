@@ -2,6 +2,7 @@
 using Academia.Domain.Interfaces;
 using Academia.Domain.Models;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,6 +21,8 @@ namespace Academia.WebApi.Controllers
             _mapper = mapper;
         }
 
+        [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Post(RequestTreinoDto treinoDto)
         {
@@ -34,6 +37,8 @@ namespace Academia.WebApi.Controllers
                 _mapper.Map<ResponseTreinoDto>(treino));
         }
 
+        [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -46,6 +51,8 @@ namespace Academia.WebApi.Controllers
             return Ok(treinosDto);
         }
 
+        [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         [HttpGet("GetId")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -62,6 +69,7 @@ namespace Academia.WebApi.Controllers
             return Ok(treinoDto);
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
