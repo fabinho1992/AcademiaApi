@@ -1,4 +1,5 @@
-﻿using Academia.Application.Profiles;
+﻿using Academia.Application.FluentValidation;
+using Academia.Application.Profiles;
 using Academia.Domain.Interfaces;
 using Academia.Domain.Interfaces.Generic;
 using Academia.infrastructure.Context;
@@ -8,12 +9,15 @@ using Academia.infrastructure.Identity.Services.User;
 using Academia.infrastructure.Identity.Services.User.Roles;
 using Academia.infrastructure.Repositories;
 using Academia.infrastructure.Repositories.Base;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
@@ -36,7 +40,6 @@ namespace ApiExtensions.DependencyApiExtensions
                     op.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
                 })
                 .AddNewtonsoftJson(op => op.SerializerSettings.Converters.Add(new StringEnumConverter()));
-
 
             //Configurando Banco
             var connectionString = configuration.GetConnectionString("DefaultConnection");
@@ -101,6 +104,9 @@ namespace ApiExtensions.DependencyApiExtensions
             services.AddScoped<LoginUser>();
             services.AddScoped<CreateRoles>();
             services.AddScoped<AddRoles>();
+            //FluentValidation
+            services.AddFluentValidationAutoValidation()
+                .AddValidatorsFromAssemblyContaining<RequestAlunoValidation>();
 
             //AutoMapper
             services.AddAutoMapper(typeof(AlunoProfile));

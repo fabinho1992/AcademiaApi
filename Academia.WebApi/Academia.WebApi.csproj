@@ -9,6 +9,7 @@
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
 	  <!-- NoWarn desabilita o aviso que obriga aplicar os comentarios XML de todas as controllers-->
 	  <NoWarn>$(NoWarn);1591</NoWarn>
+	  <UserSecretsId>b4a5806a-e500-4dca-a049-9624e811094a</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

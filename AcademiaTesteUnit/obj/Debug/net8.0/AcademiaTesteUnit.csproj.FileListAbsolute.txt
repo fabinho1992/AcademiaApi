@@ -332,3 +332,13 @@ C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\obj\Debug\net
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\obj\Debug\net8.0\AcademiaTesteUnit.pdb
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\obj\Debug\net8.0\AcademiaTesteUnit.genruntimeconfig.cache
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\obj\Debug\net8.0\ref\AcademiaTesteUnit.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\CodeUtils.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\FluentValidation.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\MailKit.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\MimeKit.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\AcademiaTesteUnit\bin\Debug\net8.0\Academia.WebApi.xml

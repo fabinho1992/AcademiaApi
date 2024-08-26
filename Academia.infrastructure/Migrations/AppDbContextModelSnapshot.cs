@@ -66,8 +66,9 @@ namespace Academia.infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Telefone")
-                        .HasColumnType("int");
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR");
 
                     b.HasKey("Id");
 
@@ -177,8 +178,9 @@ namespace Academia.infrastructure.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasDefaultValue("Ativo");
 
-                    b.Property<int>("Telefone")
-                        .HasColumnType("int");
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR");
 
                     b.HasKey("Id");
 

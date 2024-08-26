@@ -1,7 +1,5 @@
 
 using ApiExtensions.DependencyApiExtensions;
-using Academia.infrastructure.Context;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 
@@ -19,6 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c => {
     //c.SwaggerDoc("v1", new OpenApiInfo { Title = "API Barbearia", Version = "v1" });
 
+   
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "V1",
@@ -31,7 +30,9 @@ builder.Services.AddSwaggerGen(c => {
             Url = new Uri("https://www.linkedin.com/in/f%C3%A1bio-dos-santos-518612275/")
         }
 
-    });
+});
+
+    
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
     {
@@ -56,11 +57,12 @@ builder.Services.AddSwaggerGen(c => {
                new string[] {}
        }
     });
+    
     //incluindo comentario XML
     //nome:
     var xmlFileName = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFileName));
-
+    
 });
 
 var app = builder.Build();

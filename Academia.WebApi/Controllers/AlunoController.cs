@@ -30,7 +30,7 @@ namespace Academia.WebApi.Controllers
         /// </summary>
         /// <param name="alunoDto"></param>
         /// <returns>Status Code 201 e um email de confirmação de cadastro</returns>
-        [Authorize(Policy = "Admin")]
+        //[Authorize(Policy = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Post(RequestAlunoDto alunoDto)
         {
@@ -41,6 +41,7 @@ namespace Academia.WebApi.Controllers
             var alunoNovo = _mapper.Map<Aluno>(alunoDto);
             await _context.AlunoService.Create(alunoNovo);
             EmailService.SendConfirmationEmail(alunoNovo.Email, alunoNovo.Nome);
+            
             await _context.Commit();
 
 

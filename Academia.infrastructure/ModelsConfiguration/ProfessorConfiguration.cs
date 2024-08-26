@@ -29,7 +29,7 @@ namespace Academia.infrastructure.ModelsConfiguration
 
             builder.Property(x => x.DataCadastro).IsRequired();
 
-            builder.Property(x => x.Telefone).IsRequired();
+            builder.Property(x => x.Telefone).IsRequired().HasColumnType("NVARCHAR");
 
             builder.Property(x => x.Status).HasConversion<string>().HasDefaultValue(Status.Ativo);
 

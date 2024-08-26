@@ -4,6 +4,28 @@
         <name>Academia.WebApi</name>
     </assembly>
     <members>
+        <member name="M:Academia.WebApi.Controllers.AlunoController.Post(Academia.Application.Dtos.AlunoDto.RequestAlunoDto)">
+            <summary>
+            Endpoint exclusivo para Admin
+            </summary>
+            <param name="alunoDto"></param>
+            <returns>Status Code 201 e um email de confirmação de cadastro</returns>
+        </member>
+        <member name="M:Academia.WebApi.Controllers.AlunoController.Update(System.Int32,Academia.Application.Dtos.AlunoDto.PutAlunoDto)">
+            <summary>
+            Endpoint exclusivo para Admin
+            </summary>
+            <param name="id"></param>
+            <param name="alunoDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Academia.WebApi.Controllers.AlunoController.Delete(System.Int32)">
+            <summary>
+            Endpoint exclusivo para Admin
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:Academia.WebApi.Controllers.AuthController.Register(Academia.infrastructure.Identity.Models.RegisterUser)">
             <summary>
             Registra o Usuario

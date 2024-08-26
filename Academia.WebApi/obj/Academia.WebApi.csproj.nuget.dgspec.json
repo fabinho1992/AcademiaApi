@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Academia.WebApi.csproj": {}
+    "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.WebApi\\Academia.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj",
         "projectName": "Academia.Application",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj"
               }
             }
           }
@@ -58,6 +58,14 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "CodeUtils": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[4.7.1.1, )"
@@ -79,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj",
         "projectName": "Academia.Domain",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -144,24 +152,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Academia.infrastructure.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\Academia.infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Academia.infrastructure.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\Academia.infrastructure.csproj",
         "projectName": "Academia.infrastructure",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Academia.infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\Academia.infrastructure.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -177,11 +185,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj"
               }
             }
           }
@@ -246,24 +254,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Academia.WebApi.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.WebApi\\Academia.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Academia.WebApi.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.WebApi\\Academia.WebApi.csproj",
         "projectName": "Academia.WebApi",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Academia.WebApi.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.WebApi\\Academia.WebApi.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -279,11 +287,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Academia.infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Academia.infrastructure.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\Academia.infrastructure.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\Academia.infrastructure.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\ApiExtensions\\ApiExtensions.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\ApiExtensions\\ApiExtensions.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\ApiExtensions\\ApiExtensions.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\ApiExtensions\\ApiExtensions.csproj"
               }
             }
           }
@@ -339,24 +347,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\ApiExtensions\\ApiExtensions.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\ApiExtensions\\ApiExtensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\ApiExtensions\\ApiExtensions.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\ApiExtensions\\ApiExtensions.csproj",
         "projectName": "ApiExtensions",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\ApiExtensions\\ApiExtensions.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\ApiExtensions\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\ApiExtensions\\ApiExtensions.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\ApiExtensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -372,14 +380,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Academia.infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Academia.infrastructure.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\Academia.infrastructure.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\Academia.infrastructure.csproj"
               }
             }
           }
@@ -432,7 +440,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
