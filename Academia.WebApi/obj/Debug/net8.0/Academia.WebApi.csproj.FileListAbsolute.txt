@@ -205,7 +205,6 @@ C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\System.Text.Json.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -295,7 +294,6 @@ C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Academia.WebApi.props
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\scopedcss\bundle\Academia.WebApi.styles.css
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\Academia.WebApi.csproj.CopyComplete
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\Academia.WebApi.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\refint\Academia.WebApi.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\Academia.WebApi.pdb
@@ -329,4 +327,4 @@ C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\MailKit.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\MimeKit.dll
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.WebApi\obj\Debug\net8.0\Academia.A85B3CC0.Up2Date

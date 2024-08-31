@@ -1,0 +1,465 @@
+[
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AlunoController",
+    "Method": "Post",
+    "RelativePath": "Aluno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alunoDto",
+        "Type": "Academia.Application.Dtos.AlunoDto.RequestAlunoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AlunoController",
+    "Method": "Get",
+    "RelativePath": "Aluno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AlunoController",
+    "Method": "Update",
+    "RelativePath": "Aluno",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "alunoDto",
+        "Type": "Academia.Application.Dtos.AlunoDto.PutAlunoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AlunoController",
+    "Method": "Delete",
+    "RelativePath": "Aluno",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AlunoController",
+    "Method": "GetById",
+    "RelativePath": "Aluno/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetAluno"
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AlunoController",
+    "Method": "GetAlunosExames",
+    "RelativePath": "Aluno/AlunosListaExames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AlunoController",
+    "Method": "GetAllPaginado",
+    "RelativePath": "Aluno/AlunosPaginados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AuthController",
+    "Method": "AddRole",
+    "RelativePath": "Auth/AddRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nameRole",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AuthController",
+    "Method": "CreatedRole",
+    "RelativePath": "Auth/CreateRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameRole",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "Academia.infrastructure.Identity.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUser",
+        "Type": "Academia.infrastructure.Identity.Models.RegisterUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ExameFisicoController",
+    "Method": "Post",
+    "RelativePath": "ExameFisico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exameFisico",
+        "Type": "Academia.Application.Dtos.ExameFisicoDto.RequestExameFisicoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ExameFisicoController",
+    "Method": "Get",
+    "RelativePath": "ExameFisico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ExameFisicoController",
+    "Method": "Delete",
+    "RelativePath": "ExameFisico",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ExameFisicoController",
+    "Method": "GetForCpf",
+    "RelativePath": "ExameFisico/{cpf}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetCpf"
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ExercicioController",
+    "Method": "Post",
+    "RelativePath": "Exercicio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exercicioDto",
+        "Type": "Academia.Application.Dtos.ExercicioDto.RequestExercicioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ExercicioController",
+    "Method": "GetAll",
+    "RelativePath": "Exercicio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ExercicioController",
+    "Method": "Update",
+    "RelativePath": "Exercicio",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "exercicioDto",
+        "Type": "Academia.Application.Dtos.ExercicioDto.PutExercicioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ExercicioController",
+    "Method": "Delete",
+    "RelativePath": "Exercicio",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ExercicioController",
+    "Method": "GetById",
+    "RelativePath": "Exercicio/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetId"
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ProfessorController",
+    "Method": "Post",
+    "RelativePath": "Professor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "professorDto",
+        "Type": "Academia.Application.Dtos.ProfessorDto.RequestProfessorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ProfessorController",
+    "Method": "GetAll",
+    "RelativePath": "Professor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ProfessorController",
+    "Method": "Delete",
+    "RelativePath": "Professor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ProfessorController",
+    "Method": "GetById",
+    "RelativePath": "Professor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetById"
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ProfessorController",
+    "Method": "Update",
+    "RelativePath": "Professor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "profDto",
+        "Type": "Academia.Application.Dtos.ProfessorDto.PutProfessorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.TreinoController",
+    "Method": "Post",
+    "RelativePath": "Treino",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "treinoDto",
+        "Type": "Academia.Application.Dtos.TreinoDto.RequestTreinoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.TreinoController",
+    "Method": "GetAll",
+    "RelativePath": "Treino",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.TreinoController",
+    "Method": "Delete",
+    "RelativePath": "Treino",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.TreinoController",
+    "Method": "GetById",
+    "RelativePath": "Treino/GetId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
