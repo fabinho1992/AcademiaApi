@@ -36,7 +36,7 @@ namespace AcademiaTesteUnit.TestsAluno
                 Endereco = "rua Teste",
                 Peso = 100,
                 Plano = Plano.Basico,
-                Telefone = 21223131
+                Telefone = "21223131"
 
             };
 

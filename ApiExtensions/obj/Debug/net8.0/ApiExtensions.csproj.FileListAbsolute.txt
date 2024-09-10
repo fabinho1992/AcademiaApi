@@ -33,7 +33,7 @@ C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\ApiExtensions.AssemblyInfo.cs
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\ApiExtensions.csproj.CoreCompileInputs.cache
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\ApiExtensions.sourcelink.json
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\ApiExtensions.csproj.CopyComplete
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\ApiExten.94EF1B0E.Up2Date
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\ApiExtensions.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\refint\ApiExtensions.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\ApiExtensions\obj\Debug\net8.0\ApiExtensions.pdb

@@ -87,9 +87,7 @@ namespace ApiExtensions.DependencyApiExtensions
 
                 opt.AddPolicy("User", policy => policy.RequireRole("User"));
 
-                //opt.AddPolicy("ExcuisivePolicyOnly", policy => policy.RequireAssertion(contex => contex.User
-                //                                            .HasClaim(claim => claim.Type == "id" && claim.Value == "fabio"
-                //                                                  || contex.User.IsInRole("SuperAdmin"))));
+            
             }
             );
 

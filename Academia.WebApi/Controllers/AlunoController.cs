@@ -48,8 +48,8 @@ namespace Academia.WebApi.Controllers
             return new CreatedAtRouteResult("GetAluno", new { id = alunoNovo.Id }, alunoNovo);
         }
 
-        [Authorize(Policy = "User")]
-        [Authorize(Policy = "Admin")]
+        //[Authorize(Policy = "User")]
+        //[Authorize(Policy = "Admin")]
         [HttpGet]
         public async Task<IActionResult> Get()
         {

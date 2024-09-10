@@ -352,6 +352,27 @@
   },
   {
     "ContainingType": "Academia.WebApi.Controllers.ProfessorController",
+    "Method": "Update",
+    "RelativePath": "Professor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "profDto",
+        "Type": "Academia.Application.Dtos.ProfessorDto.PutProfessorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academia.WebApi.Controllers.ProfessorController",
     "Method": "Delete",
     "RelativePath": "Professor",
     "HttpMethod": "DELETE",
@@ -382,27 +403,6 @@
     ],
     "ReturnTypes": [],
     "EndpointName": "GetById"
-  },
-  {
-    "ContainingType": "Academia.WebApi.Controllers.ProfessorController",
-    "Method": "Update",
-    "RelativePath": "Professor/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "profDto",
-        "Type": "Academia.Application.Dtos.ProfessorDto.PutProfessorDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "Academia.WebApi.Controllers.TreinoController",

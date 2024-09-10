@@ -32,7 +32,7 @@ C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.infrastructure\obj\Deb
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.infrastructure\obj\Debug\net8.0\Academia.infrastructure.AssemblyInfo.cs
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.infrastructure\obj\Debug\net8.0\Academia.infrastructure.csproj.CoreCompileInputs.cache
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.infrastructure\obj\Debug\net8.0\Academia.infrastructure.sourcelink.json
-C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.infrastructure\obj\Debug\net8.0\Academia.infrastructure.csproj.CopyComplete
+C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.infrastructure\obj\Debug\net8.0\Academia.9B56D39C.Up2Date
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.infrastructure\obj\Debug\net8.0\Academia.infrastructure.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.infrastructure\obj\Debug\net8.0\refint\Academia.infrastructure.dll
 C:\AulasAluraBackEnd\ProjetoAcademia\ApiAcademia\Academia.infrastructure\obj\Debug\net8.0\Academia.infrastructure.pdb
