@@ -9213,23 +9213,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adm\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\AcademiaTesteUnit\\AcademiaTesteUnit.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\AcademiaTesteUnit\\AcademiaTesteUnit.csproj",
       "projectName": "AcademiaTesteUnit",
-      "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\AcademiaTesteUnit\\AcademiaTesteUnit.csproj",
-      "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-      "outputPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\AcademiaTesteUnit\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\AcademiaTesteUnit\\AcademiaTesteUnit.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\AcademiaTesteUnit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9245,17 +9245,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj": {
-              "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Application\\Academia.Application.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Application\\Academia.Application.csproj"
             },
-            "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj": {
-              "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.Domain\\Academia.Domain.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.Domain\\Academia.Domain.csproj"
             },
-            "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\Academia.infrastructure.csproj": {
-              "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.infrastructure\\Academia.infrastructure.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Academia.infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.infrastructure\\Academia.infrastructure.csproj"
             },
-            "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.WebApi\\Academia.WebApi.csproj": {
-              "projectPath": "C:\\AulasAluraBackEnd\\ProjetoAcademia\\ApiAcademia\\Academia.WebApi\\Academia.WebApi.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Academia.WebApi.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ApiAcademia\\AcademiaApi\\Academia.WebApi\\Academia.WebApi.csproj"
             }
           }
         }
